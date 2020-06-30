@@ -28,7 +28,7 @@ export class PaymentPage {
         "@type": ["pagamentoComCartao", Validators.required]
       });
 
-    }
+  }
 
   nextPage() {
     this.pedido.pagamento = this.formGroup.value;
