@@ -1,8 +1,8 @@
 {
-  "name": "CursoSpringIonic",
+  "name": "com.thiagofarias.cursospringionic",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "author": "Thiago José Farias",
+  "homepage": "https://www.linkedin.com/in/thiago-farias-136781193/",
   "private": true,
   "scripts": {
     "start": "ionic-app-scripts serve",
@@ -26,8 +26,10 @@
     "@ionic-native/status-bar": "4.20.0",
     "@ionic/storage": "2.2.0",
     "angular2-jwt": "^0.2.3",
+    "cordova-android-support-gradle-release": "^3.0.1",
     "cordova-browser": "5.0.4",
     "cordova-plugin-camera": "git+https://github.com/apache/cordova-plugin-camera.git",
+    "cordova-plugin-compat": "^1.2.0",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
     "cordova-plugin-ionic-webview": "^4.2.1",
@@ -53,10 +55,15 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
-      "cordova-plugin-camera": {}
+      "cordova-plugin-camera": {},
+      "cordova-plugin-compat": {},
+      "cordova-android-support-gradle-release": {
+        "ANDROID_SUPPORT_VERSION": "23.+"
+      }
     },
     "platforms": [
-      "browser"
+      "browser",
+      "android"
     ]
   }
 }
